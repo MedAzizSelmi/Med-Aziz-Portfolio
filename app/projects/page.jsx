@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import EduQuest1 from "@/public/image/projects/web/eduquest/eduquest-2.png";
+import EduQuest2 from "@/public/image/projects/web/eduquest/eduquest-3.png";
+import EduQuest3 from "@/public/image/projects/web/eduquest/eduquest-5.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -20,7 +20,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
 	1: "Web Development",
-	2: "AI & Machine Learning",
+	2: "AI",
 	9: "Other",
 };
 
@@ -99,7 +99,7 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={Intervyou1}
+										src={EduQuest1}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -123,7 +123,7 @@ export default function Page() {
 									transition={{ delay: 0.3 }}
 									className="w-full h-full shadow-lg ">
 									<Image
-										src={Intervyou3}
+										src={EduQuest3}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -149,7 +149,7 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={Intervyou2}
+										src={EduQuest3}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -174,29 +174,16 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Intervyou AI
+							EduQuest
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							AI Based interview Preparation Website created to help fresh
-							graduates and job seekers prepare for interviews and optimize
-							their CV through AI-powered features. The website is built using
-							Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL
-							(TiDB). This website can comprehensively analyze the user&apos;s
-							interview performance by providing a analysis of the user&apos;s
-							answer, gesture, and material recommendation to improve the user&apos;s
-							interview skills.
+                            EduQuest is an innovative educational platform that transforms traditional learning into an engaging, gamified experience.
+                            Using ASP.NET as backend and Angular as frontend, it provides interactive course management, personalized learning paths, and comprehensive assessment tools.
+                            The platform serves educational institutions, instructors, and students by combining game mechanics like quests and achievement badges with robust learning management system capabilities, making education more motivating and effective through technology-driven solutions.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/intervyou">More</Link>
-							</Button>
-							<Button variation="secondary">
-								<a
-									href="https://www.intervyou.me"
-									target="_blank"
-									rel="noopener noreferrer">
-									Preview
-								</a>
+								<Link href="projects/eduquest">More</Link>
 							</Button>
 						</div>
 					</motion.div>

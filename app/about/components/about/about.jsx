@@ -3,7 +3,7 @@ import Card from "./spotify/card";
 import { motion } from "framer-motion";
 import Me1 from "@/public/image/me1.jpg";
 import Me2 from "@/public/image/me2.jpg";
-import Me3 from "@/public/image/me3.jpg";
+import Me6 from "@/public/image/me6.jpg";
 import Hr from "@/components/Hr";
 
 function Title() {
@@ -82,7 +82,7 @@ export default function About() {
 								}}
 								className="w-full h-full">
 								<Image
-									src={Me3}
+									src={Me6}
 									alt="Alvalens"
 									layout="fill"
 									objectFit="cover"
@@ -108,10 +108,10 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						Med Aziz Selmi
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Hey there, I&rsquo;m Med Aziz Selmi, a
 						<span className="text-black font-medium">
 							{" "}
 							passionate Web Developer
@@ -121,14 +121,14 @@ export default function About() {
 							{" "}
 							Artificial Intelligence.
 						</span>{" "}
-						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
+						Hailing from Nouvelle Medina, Ben Arous, Tunisia, I&rsquo;m currently
 						pursuing my degree in{" "}
 						<span className="text-black font-medium">
-							Computer Science
+							Software Engineering
 						</span>{" "}
 						at{" "}
 						<span className="text-black font-medium">
-							Universitas Negeri Malang.
+							Tek-up University.
 						</span>{" "}
 						My work bridges modern web technologies and intelligent systems—from
 						building responsive, scalable websites to exploring generative AI
