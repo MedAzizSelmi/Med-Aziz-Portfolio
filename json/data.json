@@ -2,6 +2,37 @@
   "Projects": [
     {
       "show": true,
+      "title": "MedFlow",
+      "desc": [
+        "MedFlow is a modern clinic management SaaS that centralizes patient administration, staff coordination, appointments, medical records, and billing in one web platform. [web:522]",
+        "Built with Next.js (frontend + API routes), Prisma, and PostgreSQL, it supports secure authentication with role-based access for Admin, Doctor, Receptionist, and Patient users. [web:522]",
+        "It includes a patient portal for booking and managing appointments, viewing documents, and paying invoices online via Stripe (test mode), helping clinics streamline operations and improve the patient experience. [web:522]"
+      ],
+      "year": "2025",
+      "preview": "https://med-flow-delta.vercel.app",
+      "code": "https://github.com/MedAzizSelmi/MedFlow",
+      "thumbnail": "/image/projects/web/medflow/medflow-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/medflow/ui-dashboard.png",
+        "/image/projects/web/medflow/ui-dashboard-doctor.png",
+        "/image/projects/web/medflow/ui-dashboard-patient.png",
+        "/image/projects/web/medflow/ui-dashboard-receptionist.png",
+        "/image/projects/web/medflow/ui-agenda.png"
+      ],
+      "tech": [
+        "NextJs",
+        "React",
+        "Typescript",
+        "Prisma",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Stripe API"
+      ],
+      "slug": "medflow",
+      "category": [1, 2]
+    },
+    {
+      "show": true,
       "title": "EduQuest",
       "desc": [
         "EduQuest is an innovative educational platform that transforms traditional learning into an engaging, gamified experience.",

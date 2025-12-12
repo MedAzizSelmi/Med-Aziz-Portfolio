@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import EduQuest1 from "@/public/image/projects/web/eduquest/eduquest-2.png";
-import EduQuest2 from "@/public/image/projects/web/eduquest/eduquest-3.png";
-import EduQuest3 from "@/public/image/projects/web/eduquest/eduquest-5.png";
+import MedFlow1 from "@/public/image/projects/web/medflow/ui-dashboard.png";
+import MedFlow2 from "@/public/image/projects/web/medflow/ui-dashboard-patient.png";
+import MedFlow3 from "@/public/image/projects/web/medflow/ui-agenda.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -99,7 +99,7 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={EduQuest1}
+										src={MedFlow1}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -123,7 +123,7 @@ export default function Page() {
 									transition={{ delay: 0.3 }}
 									className="w-full h-full shadow-lg ">
 									<Image
-										src={EduQuest3}
+										src={MedFlow3}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -149,7 +149,7 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={EduQuest3}
+										src={MedFlow2}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -174,17 +174,25 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							EduQuest
+							MedFlow
 						</h2>
-						<p className="text-gray-600 text-justify title text-lg">
-                            EduQuest is an innovative educational platform that transforms traditional learning into an engaging, gamified experience.
-                            Using ASP.NET as backend and Angular as frontend, it provides interactive course management, personalized learning paths, and comprehensive assessment tools.
-                            The platform serves educational institutions, instructors, and students by combining game mechanics like quests and achievement badges with robust learning management system capabilities, making education more motivating and effective through technology-driven solutions.
-						</p>{" "}
-						<div className="mt-3">
+                        <p className="text-gray-600 text-justify title text-lg">
+                            MedFlow is a modern clinic management SaaS that centralizes patient administration, staff coordination, appointments, medical records, and billing in one secure web platform. [web:522]
+                            Built with Next.js (frontend + API routes), Prisma, and PostgreSQL, it supports role-based access for Admin, Doctor, Receptionist, and Patient users to keep each workflow clear and controlled. [web:522]
+                            It also includes a patient portal for booking and managing appointments, viewing documents, and paying invoices online via Stripe (test mode), helping clinics streamline operations and improve the patient experience. [web:522]
+                        </p>{" "}
+                        <div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/eduquest">More</Link>
+								<Link href="projects/medflow">More</Link>
 							</Button>
+                            <Button variation="secondary">
+                                <a
+                                    href="https://med-flow-delta.vercel.app"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Preview
+                                </a>
+                            </Button>
 						</div>
 					</motion.div>
 				</div>
