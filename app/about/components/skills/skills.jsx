@@ -73,9 +73,11 @@ const skillCategories = {
 			"JavaScript",
 			"TypeScript",
 			"IONIC",
+            "SwiftUI",
 		],
 		tools: [
 			"Android Studio",
+            "XCode",
 		],
 	},
 };
