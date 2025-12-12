@@ -89,7 +89,7 @@ const MyPage = () => {
 										}}>
 										Hi! I&rsquo;am Med Aziz, A Software Engineering Student specializing in
 										modern Web Development with a growing focus on Artificial
-										Intelligence. Passionate about building scalable,
+										Intelligence & DevOps. Passionate about building scalable,
 										user-friendly web applications and exploring AI technologies
 										such as generative models and LLM integration.
 									</motion.p>
