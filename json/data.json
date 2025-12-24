@@ -4,9 +4,9 @@
       "show": true,
       "title": "MedFlow",
       "desc": [
-        "MedFlow is a modern clinic management SaaS that centralizes patient administration, staff coordination, appointments, medical records, and billing in one web platform. [web:522]",
-        "Built with Next.js (frontend + API routes), Prisma, and PostgreSQL, it supports secure authentication with role-based access for Admin, Doctor, Receptionist, and Patient users. [web:522]",
-        "It includes a patient portal for booking and managing appointments, viewing documents, and paying invoices online via Stripe (test mode), helping clinics streamline operations and improve the patient experience. [web:522]"
+        "MedFlow is a modern clinic management SaaS that centralizes patient administration, staff coordination, appointments, medical records, and billing in one web platform.",
+        "Built with Next.js (frontend + API routes), Prisma, and PostgreSQL, it supports secure authentication with role-based access for Admin, Doctor, Receptionist, and Patient users.",
+        "It includes a patient portal for booking and managing appointments, viewing documents, and paying invoices online via Stripe (test mode), helping clinics streamline operations and improve the patient experience."
       ],
       "year": "2025",
       "preview": "https://med-flow-delta.vercel.app",
@@ -59,6 +59,41 @@
         "Gemini API"
       ], 
       "slug": "eduquest",
+      "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "Smart Services",
+      "desc": [
+        "Stage2025 is a smart service platform that connects clients with local service providers through a modern, responsive web experience.",
+        "Built with Angular (frontend), Spring Boot (REST API) and MongoDB, it supports secure JWT authentication, service discovery (search/filter by category, price, location), bookings, and ratings/reviews.",
+        "It also includes an AI recommendation module using a hybrid approach (content-based + collaborative filtering) to suggest relevant services based on user behavior such as reservations and reviews."
+      ],
+      "year": "2025",
+      "code": "https://github.com/soulaymen2000/stage2025",
+      "thumbnail": "/image/projects/web/smart_services/smart-services-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/smart_services/smart-services-1.png",
+        "/image/projects/web/smart_services/smart-services-2.png",
+        "/image/projects/web/smart_services/smart-services-3.png",
+        "/image/projects/web/smart_services/smart-services-4.png",
+        "/image/projects/web/smart_services/smart-services-5.png",
+        "/image/projects/web/smart_services/smart-services-6.png"
+      ],
+      "tech": [
+        "SpringBoot",
+        "Java",
+        "Typescript",
+        "Angular",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Python",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana"
+      ],
+      "slug": "smart_services",
       "category": [1, 2]
     },
     {
